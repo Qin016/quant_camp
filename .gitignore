@@ -1,0 +1,5 @@
+# 忽略所有数据内容，但保留目录结构
+positions/**
+future_L2/**
+final_submit/positions/**
+backtest/**
