@@ -1,0 +1,114 @@
+{
+  "IF": {
+    "bollinger": {
+      "window": 20,
+      "num_std": 1.5,
+      "sharpe_ratio": 6.071761327726982,
+      "total_return": 0.3442546073615047,
+      "volatility": 0.00012305168105751274,
+      "win_rate": 0.2628300070352131
+    },
+    "mean_reversion": {
+      "window": 30,
+      "entry_threshold": 1.5,
+      "exit_threshold": 1.0,
+      "sharpe_ratio": 7.264489471630359,
+      "total_return": 0.3574373291980296,
+      "volatility": 0.00010737373960773547,
+      "win_rate": 0.16611434072647832
+    },
+    "momentum": {
+      "short_window": 25,
+      "long_window": 60,
+      "volume_threshold": 2.0,
+      "sharpe_ratio": -0.7370907380256642,
+      "total_return": 0.0013365206178641564,
+      "volatility": 0.00014655705352742944,
+      "win_rate": 0.3371348168993224
+    }
+  },
+  "IC": {
+    "bollinger": {
+      "window": 20,
+      "num_std": 1.5,
+      "sharpe_ratio": 4.439641698517084,
+      "total_return": 0.2939603672465153,
+      "volatility": 0.00014021516623298401,
+      "win_rate": 0.2775131588701905
+    },
+    "mean_reversion": {
+      "window": 30,
+      "entry_threshold": 1.5,
+      "exit_threshold": 1.0,
+      "sharpe_ratio": 5.974478487333774,
+      "total_return": 0.3202585027008906,
+      "volatility": 0.00011518288501757161,
+      "win_rate": 0.1751890429238639
+    },
+    "momentum": {
+      "short_window": 15,
+      "long_window": 70,
+      "volume_threshold": 1.2,
+      "sharpe_ratio": 0.2444562864520041,
+      "total_return": 0.06071366972724568,
+      "volatility": 0.0001644921953612809,
+      "win_rate": 0.3944325005560086
+    }
+  },
+  "IH": {
+    "bollinger": {
+      "window": 20,
+      "num_std": 1.5,
+      "sharpe_ratio": 7.539221054374843,
+      "total_return": 0.3879516927564145,
+      "volatility": 0.0001298328112522003,
+      "win_rate": 0.23363618346250534
+    },
+    "mean_reversion": {
+      "window": 30,
+      "entry_threshold": 1.5,
+      "exit_threshold": 1.0,
+      "sharpe_ratio": 10.037100401781558,
+      "total_return": 0.41756809862532684,
+      "volatility": 0.00010581386629051834,
+      "win_rate": 0.1478819614674497
+    },
+    "momentum": {
+      "short_window": 25,
+      "long_window": 70,
+      "volume_threshold": 2.0,
+      "sharpe_ratio": 0.05971430276992879,
+      "total_return": 0.042834403636163865,
+      "volatility": 0.00015091291661112165,
+      "win_rate": 0.30886540728300665
+    }
+  },
+  "IM": {
+    "bollinger": {
+      "window": 20,
+      "num_std": 1.5,
+      "sharpe_ratio": 0.7805507104789535,
+      "total_return": 0.08620797937018854,
+      "volatility": 0.000159909150309792,
+      "win_rate": 0.24672802155895662
+    },
+    "mean_reversion": {
+      "window": 30,
+      "entry_threshold": 1.5,
+      "exit_threshold": 1.0,
+      "sharpe_ratio": 3.7598795503223594,
+      "total_return": 0.22416302243296793,
+      "volatility": 0.0001337170259171305,
+      "win_rate": 0.16225148726292773
+    },
+    "momentum": {
+      "short_window": 10,
+      "long_window": 50,
+      "volume_threshold": 1.0,
+      "sharpe_ratio": 2.863797968522987,
+      "total_return": 0.2324914195052331,
+      "volatility": 0.00018352427738776365,
+      "win_rate": 0.3602074541109473
+    }
+  }
+}

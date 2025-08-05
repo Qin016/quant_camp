@@ -1,0 +1,50 @@
+{
+  "IF": {
+    "strategy": "mean_reversion",
+    "params": {
+      "window": 30,
+      "entry_threshold": 1.5,
+      "exit_threshold": 1.0,
+      "sharpe_ratio": 7.264489471630359,
+      "total_return": 0.3574373291980296,
+      "volatility": 0.00010737373960773547,
+      "win_rate": 0.16611434072647832
+    }
+  },
+  "IC": {
+    "strategy": "mean_reversion",
+    "params": {
+      "window": 30,
+      "entry_threshold": 1.5,
+      "exit_threshold": 1.0,
+      "sharpe_ratio": 5.974478487333774,
+      "total_return": 0.3202585027008906,
+      "volatility": 0.00011518288501757161,
+      "win_rate": 0.1751890429238639
+    }
+  },
+  "IH": {
+    "strategy": "mean_reversion",
+    "params": {
+      "window": 30,
+      "entry_threshold": 1.5,
+      "exit_threshold": 1.0,
+      "sharpe_ratio": 10.037100401781558,
+      "total_return": 0.41756809862532684,
+      "volatility": 0.00010581386629051834,
+      "win_rate": 0.1478819614674497
+    }
+  },
+  "IM": {
+    "strategy": "mean_reversion",
+    "params": {
+      "window": 30,
+      "entry_threshold": 1.5,
+      "exit_threshold": 1.0,
+      "sharpe_ratio": 3.7598795503223594,
+      "total_return": 0.22416302243296793,
+      "volatility": 0.0001337170259171305,
+      "win_rate": 0.16225148726292773
+    }
+  }
+}

@@ -253,7 +253,12 @@ def save_signals(date, signals_dict, output_dir='./positions'):
     
     for contract_code, positions in signals_dict.items():
         output_file = f'{date_output_dir}/{contract_code}.csv'
-        positions.to_csv(output_file, header=False)
+        # 创建标准格式的DataFrame保存，包含列名
+        positions_df = pd.DataFrame({
+            'TRADINGTIME': positions.index,
+            'position': positions.values
+        })
+        positions_df.to_csv(output_file, index=False)
         print(f"  保存信号: {output_file}")
 
 
@@ -305,5 +310,7 @@ if __name__ == '__main__':
     run_strategy(
         test_dir='./future_L2/test',
         output_dir='./positions',
-        strategy_type='bollinger'  # 使用布林带策略
+       #strategy_type='bollinger'  # 使用布林带策略
+        #strategy_type= 'momentum'  # 使用动量策略
+        strategy_type='mean_reversion'  # 使用均值回归策略
     )

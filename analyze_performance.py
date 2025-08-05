@@ -146,7 +146,6 @@ def analyze_strategy_performance():
     
     print("\n" + "=" * 60)
     print("策略总结:")
-    print("✅ 布林带均值回归策略已成功实现")
     print("✅ 满足所有交易规则要求:")
     print("   - 仓位取值为 [0, 1, -1]")
     print("   - 开盘和收盘时仓位为0")
