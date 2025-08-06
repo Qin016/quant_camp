@@ -1,0 +1,5 @@
+# 仓库说明
+- 仓库中没有具体的数据，请本地下载
+- 当前策略主要分为两种：基于深度学习的LSTM-Attention机制，在attention_lstm_strategy文件夹下；基于统计套利的策略，在StatisticalArbitrage_strategy文件夹下
+- 回测脚本和可视化脚本在统计套利文件夹下，lstm的可视化和结果分析请自行生成
+- 根目录下ex_strategy.py为示例文档中效果较好的趋势突破策略，pre_data.ipynb文件夹是对L2数据的示例展示

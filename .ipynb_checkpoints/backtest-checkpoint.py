@@ -13,7 +13,7 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 FEE_RATE: float = 0.000023  # symmetric taker fee
 TEST_DIR = Path("./future_L2/test")
-SIG_DIR = Path("./final_submit/positions")
+SIG_DIR = Path("./simple_strategy.py")#("./final_submit/positions")
 BACKTEST_RESULT_DIR = Path("./backtest")
 
 # -----------------------------------------------------------------------------
